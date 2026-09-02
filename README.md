@@ -1,18 +1,48 @@
-# Ga0my Tap
+# Homebrew Tap
 
-## How do I install these formulae?
+Personal Homebrew tap providing macOS Casks for selected applications.
 
-`brew install ga0my/tap/<formula>`
+## Installation
 
-Or `brew tap ga0my/tap` and then `brew install <formula>`.
+```bash
+brew tap ga0my/tap
+````
 
-Or, in a `brew bundle` `Brewfile`:
+Or install a cask directly:
 
-```ruby
-tap "ga0my/tap"
-brew "<formula>"
+```bash
+brew install --cask ga0my/tap/easytier-gui
+brew install --cask ga0my/tap/gui-for-clash
+brew install --cask ga0my/tap/gui-for-singbox
 ```
 
-## Documentation
+## Available Casks
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Cask              | Description      | Architecture          |
+| ----------------- | ---------------- | --------------------- |
+| `easytier-gui`    | EasyTier GUI     | Apple Silicon / Intel |
+| `gui-for-clash`   | GUI for Clash    | Apple Silicon / Intel |
+| `gui-for-singbox` | GUI for sing-box | Apple Silicon / Intel |
+
+## Update
+
+```bash
+brew update
+brew upgrade --cask
+```
+
+## Uninstall
+
+```bash
+brew uninstall --cask easytier-gui
+brew uninstall --cask gui-for-clash
+brew uninstall --cask gui-for-singbox
+```
+
+## Upstream Projects
+
+* EasyTier: https://github.com/EasyTier/EasyTier
+* GUI.for.Clash: https://github.com/GUI-for-Cores/GUI.for.Clash
+* GUI.for.SingBox: https://github.com/GUI-for-Cores/GUI.for.SingBox
+
+```
