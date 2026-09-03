@@ -13,8 +13,6 @@ cask "gui-for-singbox" do
   desc "GUI program for sing-box, built with Vue 3 and Wails"
   homepage "https://github.com/GUI-for-Cores/GUI.for.SingBox"
 
-  license "GPL-3.0-or-later"
-
   app "GUI.for.SingBox.app"
 
   livecheck do

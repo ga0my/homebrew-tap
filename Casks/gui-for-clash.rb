@@ -13,8 +13,6 @@ cask "gui-for-clash" do
   desc "Modern GUI for Clash, built with Wails and Vue 3"
   homepage "https://github.com/GUI-for-Cores/GUI.for.Clash"
 
-  license "GPL-3.0-or-later"
-
   app "GUI.for.Clash.app"
 
   livecheck do
