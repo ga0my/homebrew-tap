@@ -23,7 +23,7 @@ cask "flclash" do
 
   app "FlClash.app"
 
-  postflight do
+  postflight_steps do
     system_command "xattr",
                    args: ["-rd", "com.apple.quarantine", "#{appdir}/FlClash.app"]
   end
