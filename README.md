@@ -44,5 +44,3 @@ brew uninstall --cask gui-for-singbox
 * EasyTier: https://github.com/EasyTier/EasyTier
 * GUI.for.Clash: https://github.com/GUI-for-Cores/GUI.for.Clash
 * GUI.for.SingBox: https://github.com/GUI-for-Cores/GUI.for.SingBox
-
-```
