@@ -25,7 +25,7 @@ cask "flclash" do
 
   postflight_steps do
     system_command "xattr",
-                   args: ["-rd", "com.apple.quarantine", "#{appdir}/FlClash.app"]
+    args: ["-rd", "com.apple.quarantine", "/Applications/FlClash.app"]
   end
 
   uninstall quit: "com.follow.clash"
